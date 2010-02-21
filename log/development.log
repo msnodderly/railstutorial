@@ -233,3 +233,9 @@ Processing PagesController#about (for 127.0.0.1 at 2010-02-20 23:32:04) [GET]
 Rendering template within layouts/application
 Rendering pages/about
 Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-02-20 23:42:11) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 25ms (View: 15, DB: 0) | 200 OK [http://localhost/pages/about]
