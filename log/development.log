@@ -1129,3 +1129,195 @@ DEPRECATION WARNING: Calling render with a string will render a partial from Rai
 DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/header', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/motodeals/rubytutorial-mds/vendor/rails/actionpack/lib/action_view/base.rb:243)
 DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/footer', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/motodeals/rubytutorial-mds/vendor/rails/actionpack/lib/action_view/base.rb:243)
 Completed in 37ms (View: 28, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-02-21 16:33:16) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/stylesheets', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
+
+
+ActionView::TemplateError (Missing layout layouts/stylesheets.erb in view path /home/mds2/Dropbox/projects/railstutorial/app/views:) on line #6 of app/views/layouts/application.html.erb:
+3:   <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:     <head>
+5:         <title><%= title %></title>
+6:         <%= render 'layouts/stylesheets' %>
+7:            </head>
+8:   <body>
+9:    <div class="container">
+
+    vendor/rails/actionpack/lib/action_view/template.rb:95:in `find_full_path'
+    vendor/rails/actionpack/lib/action_view/template.rb:16:in `initialize'
+    vendor/rails/actionpack/lib/action_view/base.rb:334:in `new'
+    vendor/rails/actionpack/lib/action_view/base.rb:334:in `_unmemoized__pick_template'
+    vendor/rails/activesupport/lib/active_support/memoizable.rb:70:in `_pick_template'
+    vendor/rails/actionpack/lib/action_view/base.rb:256:in `render'
+    vendor/rails/actionpack/lib/action_view/base.rb:248:in `render'
+    app/views/layouts/application.html.erb:6
+    vendor/rails/actionpack/lib/action_view/renderable.rb:39:in `send'
+    vendor/rails/actionpack/lib/action_view/renderable.rb:39:in `render'
+    vendor/rails/actionpack/lib/action_view/template.rb:73:in `render_template'
+    vendor/rails/actionpack/lib/action_view/base.rb:256:in `render'
+    vendor/rails/actionpack/lib/action_view/base.rb:373:in `_render_with_layout'
+    vendor/rails/actionpack/lib/action_view/base.rb:254:in `render'
+    vendor/rails/actionpack/lib/action_controller/base.rb:1177:in `render_for_file'
+    vendor/rails/actionpack/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    vendor/rails/actionpack/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    vendor/rails/actionpack/lib/action_controller/base.rb:1251:in `default_render'
+    vendor/rails/actionpack/lib/action_controller/base.rb:1257:in `perform_action_without_filters'
+    vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:184:in `handle_request'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (130.6ms)
+Rendered /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (3.0ms)
+Rendering /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-02-21 16:33:53) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/stylesheets', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/header', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/footer', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
+
+
+ActionView::TemplateError (Missing layout layouts/footer.erb in view path /home/mds2/Dropbox/projects/railstutorial/app/views:) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14:    </div>
+15:    <%= render 'layouts/footer'%>
+16:   </body>
+17: </html>
+
+    vendor/rails/actionpack/lib/action_view/template.rb:95:in `find_full_path'
+    vendor/rails/actionpack/lib/action_view/template.rb:16:in `initialize'
+    vendor/rails/actionpack/lib/action_view/base.rb:334:in `new'
+    vendor/rails/actionpack/lib/action_view/base.rb:334:in `_unmemoized__pick_template'
+    vendor/rails/activesupport/lib/active_support/memoizable.rb:70:in `_pick_template'
+    vendor/rails/actionpack/lib/action_view/base.rb:256:in `render'
+    vendor/rails/actionpack/lib/action_view/base.rb:248:in `render'
+    app/views/layouts/application.html.erb:15
+    vendor/rails/actionpack/lib/action_view/renderable.rb:39:in `send'
+    vendor/rails/actionpack/lib/action_view/renderable.rb:39:in `render'
+    vendor/rails/actionpack/lib/action_view/template.rb:73:in `render_template'
+    vendor/rails/actionpack/lib/action_view/base.rb:256:in `render'
+    vendor/rails/actionpack/lib/action_view/base.rb:373:in `_render_with_layout'
+    vendor/rails/actionpack/lib/action_view/base.rb:254:in `render'
+    vendor/rails/actionpack/lib/action_controller/base.rb:1177:in `render_for_file'
+    vendor/rails/actionpack/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    vendor/rails/actionpack/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    vendor/rails/actionpack/lib/action_controller/base.rb:1251:in `default_render'
+    vendor/rails/actionpack/lib/action_controller/base.rb:1257:in `perform_action_without_filters'
+    vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:184:in `handle_request'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (150.0ms)
+Rendered /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (2.8ms)
+Rendering /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-02-21 16:34:05) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/stylesheets', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/header', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/footer', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
+Completed in 52ms (View: 40, DB: 0) | 200 OK [http://localhost/pages/about]
