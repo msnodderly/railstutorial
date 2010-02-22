@@ -1120,3 +1120,12 @@ DEPRECATION WARNING: Calling render with a string will render a partial from Rai
 DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/header', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/motodeals/rubytutorial-mds/vendor/rails/actionpack/lib/action_view/base.rb:243)
 DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/footer', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/motodeals/rubytutorial-mds/vendor/rails/actionpack/lib/action_view/base.rb:243)
 Completed in 46ms (View: 36, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-02-21 15:58:41) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/stylesheets', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/motodeals/rubytutorial-mds/vendor/rails/actionpack/lib/action_view/base.rb:243)
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/header', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/motodeals/rubytutorial-mds/vendor/rails/actionpack/lib/action_view/base.rb:243)
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/footer', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/motodeals/rubytutorial-mds/vendor/rails/actionpack/lib/action_view/base.rb:243)
+Completed in 37ms (View: 28, DB: 0) | 200 OK [http://localhost/pages/about]
