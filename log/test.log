@@ -1554,3 +1554,400 @@ Rendering template within layouts/application
 Rendering pages/home
 Completed in 15ms (View: 14, DB: 0) | 200 OK [http://test.host/pages/home]
   [4;36;1mUser Create (1.3ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-02-27 04:52:59', '2010-02-27 04:52:59', 'user@example.com')[0m
+Rendering users/new
+  [4;36;1mUser Create (1.4ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-02-27 04:55:48', '2010-02-27 04:55:48', 'user@example.com')[0m
+Rendering users/new
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-03-01 21:04:20) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:04:20) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 24ms (View: 13, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:04:20) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:04:20) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:04:20) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:04:20) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:04:20) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Create (1.2ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:04:20', '2010-03-02 05:04:20', 'user@example.com')[0m
+Rendering users/new
+  [4;36;1mUser Create (7.3ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:12:10', '2010-03-02 05:12:10', 'user@example.com')[0m
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-03-01 21:12:10) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 10ms (View: 2, DB: 7) | 200 OK [http://test.host/users/new]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:12:10) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:12:10) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:12:10) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:12:10) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:12:10) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:12:10) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://test.host/pages/home]
+Rendering users/new
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-03-01 21:12:22) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:12:22) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 23ms (View: 12, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:12:22) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:12:23) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:12:23) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:12:23) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:12:23) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Create (1.4ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:12:23', '2010-03-02 05:12:23', 'user@example.com')[0m
+  [4;36;1mUser Create (1.4ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:17:40', '2010-03-02 05:17:40', 'user@example.com')[0m
+Rendering users/new
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-03-01 21:17:46) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:17:46) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 28ms (View: 16, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:17:46) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:17:46) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:17:46) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:17:46) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:17:46) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Create (1.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:17:46', '2010-03-02 05:17:46', 'user@example.com')[0m
+  [4;36;1mUser Create (4.6ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:18:18', '2010-03-02 05:18:18', 'user@example.com')[0m
+  [4;36;1mUser Create (1.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:20:04', '2010-03-02 05:20:04', 'user@example.com')[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:20:04', '2010-03-02 05:20:04', 'user@example.com')[0m
+  [4;36;1mUser Create (1.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:20:43', '2010-03-02 05:20:43', 'user@example.com')[0m
+  [4;35;1mUser Create (0.9ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:20:43', '2010-03-02 05:20:43', 'user@example.com')[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.6ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:21:12', '2010-03-02 05:21:12', 'user@example.com')[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (2.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'THE_USER@foo.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'THE_USER_at_foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'first.last@foo') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.9ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:21:12', '2010-03-02 05:21:12', 'user@example.com')[0m
+  [4;35;1mUser Exists (0.8ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+Rendering users/new
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-03-01 21:21:18) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 17ms (View: 4, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:21:18) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 24ms (View: 16, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:21:18) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:21:18) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:21:18) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:21:18) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:21:18) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.1ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:21:18', '2010-03-02 05:21:18', 'user@example.com')[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.8ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'THE_USER@foo.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'THE_USER_at_foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'first.last@foo') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.7ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:21:18', '2010-03-02 05:21:18', 'user@example.com')[0m
+  [4;35;1mUser Exists (0.8ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.8ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:21:33', '2010-03-02 05:21:33', 'user@example.com')[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'THE_USER@foo.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'THE_USER_at_foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.8ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'first.last@foo') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.9ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:21:33', '2010-03-02 05:21:33', 'user@example.com')[0m
+  [4;35;1mUser Exists (0.9ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.6ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:23:49', '2010-03-02 05:23:49', 'user@example.com')[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'THE_USER@foo.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Exists (2.7ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'THE_USER_at_foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'first.last@foo') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.9ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:23:49', '2010-03-02 05:23:49', 'user@example.com')[0m
+  [4;35;1mUser Exists (0.7ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.7ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'USER@EXAMPLE.COM') LIMIT 1[0m
+  [4;35;1mUser Create (1.7ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:23:49', '2010-03-02 05:23:49', 'USER@EXAMPLE.COM')[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Exists (1.8ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.1ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:23:55', '2010-03-02 05:23:55', 'user@example.com')[0m
+  [4;36;1mUser Exists (0.7ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'THE_USER@foo.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'THE_USER_at_foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'first.last@foo') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (1.0ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:23:55', '2010-03-02 05:23:55', 'user@example.com')[0m
+  [4;35;1mUser Exists (1.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'USER@EXAMPLE.COM') LIMIT 1[0m
+  [4;35;1mUser Create (0.9ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:23:55', '2010-03-02 05:23:55', 'USER@EXAMPLE.COM')[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.6ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:24:29', '2010-03-02 05:24:29', 'user@example.com')[0m
+  [4;36;1mUser Exists (3.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user_at_foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.9ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:24:30', '2010-03-02 05:24:30', 'user@example.com')[0m
+  [4;35;1mUser Exists (0.9ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.9ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:24:30', '2010-03-02 05:24:30', 'USER@EXAMPLE.COM')[0m
+  [4;36;1mUser Exists (0.8ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+Rendering users/new
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-03-01 21:24:35) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 18ms (View: 4, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:24:35) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 35ms (View: 20, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-01 21:24:35) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:24:35) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-01 21:24:35) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:24:36) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-01 21:24:36) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.3ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:24:36', '2010-03-02 05:24:36', 'user@example.com')[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user_at_foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo') LIMIT 1[0m
+  [4;35;1mUser Exists (0.7ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.7ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:24:36', '2010-03-02 05:24:36', 'user@example.com')[0m
+  [4;35;1mUser Exists (0.9ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:24:36', '2010-03-02 05:24:36', 'USER@EXAMPLE.COM')[0m
+  [4;36;1mUser Exists (0.9ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.4ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:25:27', '2010-03-02 05:25:27', 'user@example.com')[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.8ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user_at_foo.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo') LIMIT 1[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.8ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:25:28', '2010-03-02 05:25:28', 'user@example.com')[0m
+  [4;35;1mUser Exists (0.9ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.9ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('example user', '2010-03-02 05:25:28', '2010-03-02 05:25:28', 'USER@EXAMPLE.COM')[0m
+  [4;36;1mUser Exists (0.9ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m

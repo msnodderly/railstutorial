@@ -1399,3 +1399,38 @@ Migrating to CreateUsers (20100227035809)
 [0m
   [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
   [4;36;1mSQL (86.2ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20100227035809')[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (2.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100227035809)
+Migrating to AddEmailUniquenessIndex (20100302052542)
+  [4;36;1mSQL (269.9ms)[0m   [0;1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [4;35;1mSQL (204.9ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100302052542')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mPRAGMA index_info('index_users_on_email')[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-01 21:33:29) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/stylesheets', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/header', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
+DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/footer', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
+Completed in 58ms (View: 50, DB: 0) | 200 OK [http://localhost/pages/home]
