@@ -1434,3 +1434,8 @@ DEPRECATION WARNING: Calling render with a string will render a partial from Rai
 DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/header', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
 DEPRECATION WARNING: Calling render with a string will render a partial from Rails 2.3. Change this call to render(:file => 'layouts/footer', :locals => locals_hash).. (called from render at /home/mds2/Dropbox/projects/railstutorial/vendor/rails/actionpack/lib/action_view/base.rb:243)
 Completed in 58ms (View: 50, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
