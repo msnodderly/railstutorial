@@ -9,7 +9,7 @@ metadata:
 spec:
   ports:
   - name: port-2
-    nodePort: "30421"
+    nodePort: "30422"
     port: "9443"
     protocol: TCP
     targetPort: "9443"
